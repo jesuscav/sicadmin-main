@@ -83,7 +83,7 @@ Esta cuenta Agrupa los cargos de los servicios si es integrado con Laboratorio ,
 
 #### **5. Ejemplo de Interfaz**
 
-![Estado de cuenta del paciente](images\EDOAMBULATORIOS/CEmergencia.JPG)
+![Estado de cuenta del paciente](images/EDOAMBULATORIOS/CEmergencia.JPG)
 
 ---
 
