@@ -23,7 +23,6 @@ Los diferentes cargos que se realizan aqui gastos de emergencia, servicios como 
 - **Identificador Responsable y Paciente**: Identificador único del paciente.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico.
 - **Datos de Impresión**: Información adicional para la impresión de la factura.
->>>>>>> Stashed changes
 
 ##### **2.2. Detalles de la Factura**
 - **Código Servicio**: Código del servicio médico.
