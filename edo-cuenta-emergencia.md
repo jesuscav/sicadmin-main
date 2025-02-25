@@ -33,7 +33,7 @@ si los modulos estan integrados pueden cargarse desde el servicio correpondiente
 - **Fecha de Egreso**: Fecha de egreso del paciente, fecha en que se dio culminado el acto medico para el paciente ambulatorio.
 - **Fecha. de Factura**: Fecha de la factura, este se genra al momento de producir la facturacion Ambulatoria de la Emergencia. 
 - **Condiciones. Pago**: Condicion del pago sobre el pago.
-- **Descripción**: Descripción adicional de la factura.
+- **Descripción**: Descripción adicional de la cuenta, Existe una documentacion de casos que se lleva poor lo general son detalles ingresados por el usuario de la emergencia.
 
 ##### **2.3. Montos y Totales en el Fomulario de la Vista**
 - **MONTO DESCUENTO**: Suma de Monto de descuento aplicado a cada Item.
