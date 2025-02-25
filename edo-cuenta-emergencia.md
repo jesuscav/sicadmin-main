@@ -1,4 +1,3 @@
----
 
 ### **Documentación para el Formulario de Gestión de Cuentas del Paciente**
 
