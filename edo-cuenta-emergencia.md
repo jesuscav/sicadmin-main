@@ -16,8 +16,8 @@ Los diferentes cargos que se realizan aqui gastos de emergencia, servicios como 
 - **Idx**: Identificador único del paciente.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico. Aqui aparece el medico que realiza la revision o preooperatorio si es el caso del paciente.
 - **Datos de Impresión**: Información adicional para la impresión del Edo de cuenta.
-- **Datos de cedula paciente/responsable**: Al ingresar la cedula el sistema busca de manera automatica todod los datos del paciente, si a estado alguna vez en la clinica se vendran de forma inmediata a la cuenta, 
--   igual pasa con el responsable, es de indicar que estos datos son necesarios y obligatorios para el ingreso.
+- **Datos de cedula paciente/responsable**: Al ingresar la cedula el sistema busca de manera automatica todos los datos del paciente, llenando los campos del ingreso, si existen los traera de forma inmediata. 
+- igual pasa con el responsable, es de indicar que estos datos son necesarios y obligatorios para el ingreso.
 
 ##### **2.2. Detalles de la Factura**
 - **Código Servicio**: Código del servicio médico.
