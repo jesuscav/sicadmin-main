@@ -35,7 +35,7 @@ si los modulos estan integrados pueden cargarse desde el servicio correpondiente
 - **Condiciones. Pago**: Condicion del pago sobre el pago.
 - **Descripción**: Descripción adicional de la factura.
 
-##### **2.3. Montos y Totales**
+##### **2.3. Montos y Totales en el Fomulario de la Vista**
 - **MONTO DESCUENTO**: Suma de Monto de descuento aplicado a cada Item.
 - **MONTO EXENTO**: Suma de los Monto exento de impuestos de cada Item.
 - **MONTO BASE**: Suma del Monto que contine IVA en cada item.
