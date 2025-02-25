@@ -45,9 +45,10 @@ si los modulos estan integrados pueden cargarse desde el servicio correpondiente
 - **MONTO COBRADO**: Monto Total Cobrado.
 - **TOTAL SALDO**: Saldo total PENDIENTE.
 
-##### **2.4. Detalles de Recibos**
+##### **2.4. Detalles de las lineas de la cuenta creada**
 - **Lín**: Línea de la cuenta.
 - **Código**: Código del Item o producto.
+- **Descripcion**: Descripcion de el item ingresado, automaticamente aparece el definido en la tabla de movimientos del edo. de cuenta.
 - **Precio**: Precio del Item.
 - **Descuento**: Descuento Item.
 - **Descuento**: Descuento Item.
