@@ -1,4 +1,4 @@
-# sicadmin
+# Sic Admin V8.2
 Documentos usuarios Sistema Administrativo de Clinica Sic Admin v8.4
 
 ### **Introducción**

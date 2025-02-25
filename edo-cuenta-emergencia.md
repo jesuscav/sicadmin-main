@@ -3,17 +3,22 @@
 ### **Documentación para el Formulario de Gestión de Cuentas del Paciente**
 
 #### **1. Descripción General**
-El formulario de gestión de cuentas del paciente es utilizado para gestionar los gastos y honorarios médicos asociados a un paciente. 
-Aqui Registramos los Item que se cargaran a la cuenta creada por la historia, Esta cuenta puede venir con datos de Emergencia por ser seguro convenio, o simplemente por el seguro que cubre la emergencia. 
-Esta cuenta Agrupa los cargos de los servicios si es integrado con Laboratorio , Imagens, RX y Almacen.
+El formulario de gestión de cuentas del paciente por Emergencia es utilizado para gestionar los gastos de servicios y  honorarios médicos asociados a un paciente. 
+Aqui Registramos los Item que se cargaran a la cuenta creada, aqui siempre se ingresan los pacientes que pueden ir a hospitalizacion si es el caso, si es por el seguro que cubre la emergencia. 
+Los diferentes cargos que se realizan aqui gastos de emergencia, servicios como RX, imagenes u Laboratorio, se realizan al estar integrados desde el modulo respectivo y automaticamente aparecen en la cuenta de emergencia, claro esta estos servicios lo realizan por la orden emitida de emergencia que se realicen dichos servicios.
 
 ---
 
 #### **2. Campos del Formulario**
 
 ##### **2.1. Información del Paciente y Responsable**
+- **Identificador Paciente y Responsable **: Identificador paciente y titular , son correaltivos únicos, y al buscar un paciente por nombre, cedula etc ele sitema traera su identificador unico que se relaciona con los datos unico de su cedula.
+- **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico. Aqui aparece el medico que realiza la revision o preooperatorio si es el caso del paciente.
+- **Datos de Impresión**: Información adicional para la impresión del Edo de cuenta.
+- **Datos de cedula paciente/responsable**: Al ingresar la cedula el sistema busca de manera automatica todos los datos del paciente, llenando los campos del ingreso, si existen los traera de forma inmediata. 
+- - igual pasa con el responsable, es de indicar que estos datos son necesarios y obligatorios para el ingreso.
 - **Paciente**: Nombre del paciente.
-- **Identificador**: Identificador único del paciente.
+- **Identificador**: Identificador único del paciente/responsable.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico.
 - **Datos de Impresión**: Información adicional para la impresión de la factura.
 
@@ -83,7 +88,7 @@ Esta cuenta Agrupa los cargos de los servicios si es integrado con Laboratorio ,
 
 #### **5. Ejemplo de Interfaz**
 
-![Estado de cuenta del paciente](images/CEdoCuentaAmbulatorio.JPG)
+![Estado de cuenta del paciente](images/EDOAMBULATORIOS/CEmergencia.JPG)
 
 ---
 
