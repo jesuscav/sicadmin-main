@@ -5,7 +5,8 @@
 #### **1. Descripción General**
 El formulario de gestión de cuentas del paciente por Emergencia es utilizado para gestionar los gastos de servicios y  honorarios médicos asociados a un paciente. 
 Aqui Registramos los Item que se cargaran a la cuenta creada, aqui siempre se ingresan los pacientes que pueden ir a el servicio de hospitalizacion, si es el caso, si es el seguro que cubre la emergencia. 
-Los diferentes cargos que se realizan aqui en emergencia son: servicios como RX, imagenes, Anatomia patologica, Banco de Sangre , Laboratorio y Administracion de insumos medicos, si los modulos estan integrados pueden cargarse desde el servicio correpondiente con el modulo respectivo, automaticamente aparecen en la cuenta de emergencia, todos los servicion se cargar por orden medica emitida.
+Los diferentes cargos que se realizan aqui en emergencia son: servicios como RX, imagenes, Anatomia patologica, Banco de Sangre , Laboratorio y Administracion de insumos medicos, 
+si los modulos estan integrados pueden cargarse desde el servicio correpondiente con el modulo respectivo, automaticamente aparecen en la cuenta de emergencia, todos los servicion se cargar por orden medica emitida.
 
 ---
 
