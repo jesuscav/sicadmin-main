@@ -13,7 +13,7 @@ Esta cuenta Agrupa los cargos de los servicios si es integrado con Laboratorio ,
 
 ##### **2.1. Información del Paciente y Responsable**
 - **Paciente**: Nombre del paciente.
-- **Idx**: Identificador único del paciente.
+- **Identificador**: Identificador único del paciente.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico.
 - **Datos de Impresión**: Información adicional para la impresión de la factura.
 
