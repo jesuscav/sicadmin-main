@@ -49,9 +49,11 @@ si los modulos estan integrados pueden cargarse desde el servicio correpondiente
 - **Lín**: Línea de la cuenta.
 - **Código**: Código del Item o producto.
 - **Descripcion**: Descripcion de el item ingresado, automaticamente aparece el definido en la tabla de movimientos del edo. de cuenta.
-- **Precio**: Precio del Item.
+- **Precio**: Precio del Item. El precio siempre se calcula con la tasa BCV, trae si existe el precio en Divisa en la tabla y con la Tasa "IdTasa BCV' calcula los Bs. del Item correspondiente o si esta en Bs. hace el calculo en divisa del item con el IDTASA BCV del dia.
 - **Descuento**: Descuento Item.
-- **Descuento**: Descuento Item.
+- **IVA**: IVA del Item.
+- **Monto IVA**: El monto del IVA se refiere al item ingresado, precio -IVA del precio, Este asiganado es ORD o EXE,En las clinicas por los servicios clinicos estar exonerados el default es EXE, de exento .
+- **Monto TOTAL**: El monto total de la linea (precio -descuento +iva) * cantidad.
 - **No. Recibo**: Número de recibo.
 - **Ser**: Serie del recibo.
 
