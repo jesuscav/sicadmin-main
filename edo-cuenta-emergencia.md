@@ -15,8 +15,7 @@ si los modulos estan integrados pueden cargarse desde el servicio correpondiente
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico. Aqui aparece el medico que realiza la revision o preooperatorio si es el caso del paciente.
 - **Datos de Impresión**: Información adicional para la impresión del Edo de cuenta.
 - **Datos de cedula paciente/responsable**: Al ingresar la cedula el sistema busca de manera automatica todos los datos del paciente, llenando los campos del ingreso, si existen los traera de forma inmediata. 
-- igual pasa con el responsable, es de indicar que estos datos son necesarios y obligatorios para el ingreso.
-=======
+	igual pasa con el responsable, es de indicar que estos datos son necesarios y obligatorios para el ingreso.
 - **Paciente**: Nombre del paciente.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico.
 - **Datos de Impresión**: Información adicional para la impresión de la factura.
