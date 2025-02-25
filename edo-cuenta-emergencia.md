@@ -13,7 +13,7 @@ Los diferentes cargos que se realizan aqui gastos de emergencia, servicios como 
 
 ##### **2.1. Información del Paciente y Responsable**
 - **Paciente**: Nombre del paciente.
-- **Idx**: Identificador único del paciente.
+- **Idx**: Identificador paciente y titular , son correaltivos únicos, y al buscar un paciente por nombre, cedula etc ele sitema traera su identificador unico que se relaciona con los datos unico de su cedula.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico. Aqui aparece el medico que realiza la revision o preooperatorio si es el caso del paciente.
 - **Datos de Impresión**: Información adicional para la impresión del Edo de cuenta.
 - **Datos de cedula paciente/responsable**: Al ingresar la cedula el sistema busca de manera automatica todos los datos del paciente, llenando los campos del ingreso, si existen los traera de forma inmediata. 
