@@ -41,8 +41,8 @@ si los modulos estan integrados pueden cargarse desde el servicio correpondiente
 - **MONTO BASE**: Suma del Monto que contine IVA en cada item.
 - **MONTO IVA**: Suma del Monto  IVA en cada item.
 - **TOTAL FACTURADO**: Total facturado Sumatoria del Exento + Base + IVA .
-- **MONTO IGTF**: Monto de Impuestos a pagos con DIVISA(Moneda no Nacional,Dolar EEUU, EURO etc).
-- **MONTO COBRADO**: Monto cobrado Total.
+- **MONTO IGTF**: Monto de Impuestos 3% a pagos con moneda extranjera(Dollar, EURO etc).
+- **MONTO COBRADO**: Monto Total Cobrado.
 - **TOTAL SALDO**: Saldo total PENDIENTE.
 
 ##### **2.4. Detalles de Recibos**
