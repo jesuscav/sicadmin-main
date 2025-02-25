@@ -18,7 +18,7 @@ si los modulos estan integrados pueden cargarse desde el servicio correpondiente
 	igual pasa con el responsable, es de indicar que estos datos son necesarios y obligatorios para el ingreso.
 - **Paciente**: Nombre del paciente.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico.
-- **Datos de Impresión**: Información adicional para la impresión de la factura.
+- **Datos de Impresión**: Información adicional para la impresión de la cuenta creada.
 
 ##### **2.2. Detalles de la Factura**
 - **Código Servicio**: Código del servicio médico.
