@@ -8,7 +8,6 @@ Aqui Registramos los Item que ingresan a la cta pacientes, esta puede ir a el se
 Los diferentes cargos que se realizan aqui en emergencia son: servicios como RX, imagenes, Anatomia patologica, Banco de Sangre , Laboratorio y Administracion de insumos medicos, 
 si los modulos estan integrados pueden cargarse desde el servicio correpondiente con el modulo respectivo, automaticamente aparecen en la cuenta de emergencia, todos los servicion se cargar por orden medica emitida.
 
----
 
 #### **2. Campos del Formulario**
 
