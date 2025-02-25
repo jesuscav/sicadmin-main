@@ -36,19 +36,21 @@ si los modulos estan integrados pueden cargarse desde el servicio correpondiente
 - **Descripción**: Descripción adicional de la factura.
 
 ##### **2.3. Montos y Totales**
-- **MONTO EXENTO**: Monto exento de impuestos.
-- **MONTO DESCUENTO**: Monto de descuento aplicado.
-- **MONTO IVA**: Monto del IVA.
-- **TOTAL FACTURADO**: Total facturado.
-- **MONTO IGTE**: Monto de otros impuestos.
-- **MONTO COBRADO**: Monto cobrado.
-- **TOTAL SALDO**: Saldo total pendiente.
+- **MONTO DESCUENTO**: Suma de Monto de descuento aplicado a cada Item.
+- **MONTO EXENTO**: Suma de los Monto exento de impuestos de cada Item.
+- **MONTO BASE**: Suma del Monto que contine IVA en cada item.
+- **MONTO IVA**: Suma del Monto  IVA en cada item.
+- **TOTAL FACTURADO**: Total facturado Sumatoria del Exento + Base + IVA .
+- **MONTO IGTF**: Monto de Impuestos a pagos con DIVISA(Moneda no Nacional,Dolar EEUU, EURO etc).
+- **MONTO COBRADO**: Monto cobrado Total.
+- **TOTAL SALDO**: Saldo total PENDIENTE.
 
 ##### **2.4. Detalles de Recibos**
-- **Lín**: Línea de detalle.
-- **Código**: Código del servicio o producto.
-- **Monito**: Monto individual.
-- **Total Monto**: Monto total.
+- **Lín**: Línea de la cuenta.
+- **Código**: Código del Item o producto.
+- **Precio**: Precio del Item.
+- **Descuento**: Descuento Item.
+- **Descuento**: Descuento Item.
 - **No. Recibo**: Número de recibo.
 - **Ser**: Serie del recibo.
 
