@@ -19,7 +19,6 @@ Los diferentes cargos que se realizan aqui gastos de emergencia, servicios como 
 - igual pasa con el responsable, es de indicar que estos datos son necesarios y obligatorios para el ingreso.
 =======
 - **Paciente**: Nombre del paciente.
-- **Identificador Responsable y Paciente**: Identificador único del paciente.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico.
 - **Datos de Impresión**: Información adicional para la impresión de la factura.
 
