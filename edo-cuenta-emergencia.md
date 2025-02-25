@@ -27,7 +27,7 @@ si los modulos estan integrados pueden cargarse desde el servicio correpondiente
 - **No. Factura**: Número de la factura, cuando se facture la cuenta ambulatoria.
 - **Fecha. de Ingreso**: Fecha de ingreso del paciente y la hora , ambos se guardan, no pueden ser modificados.
 - **IdTasa BCV**: Tasa aplicada BCV, La tasa del BCV se ingresa automaticamente si existe en la fecha de carga, si no existe se toma el mayor idtasa. Este Id corresponde a una publicacion de fecha:hora por el BCV.
-- **Pre Factura**: Este tilde al ser marcado, se utiliza exclusivo para seguros, esto es una vez cerrada la cuenta con el paciente y el seguro no a dado el monto definitivo de cobertura, se tilda para evitar y hacer sabe a los servicios que la cuenta esta precerrada y no pueden aplicar nuevos examenes.
+- **Pre Factura**: Este tilde al ser marcado, se utiliza exclusivo para seguros, esto es una vez cerrada la cuenta con el paciente y el seguro no a dado el monto definitivo de cobertura, se tilda para evitar y hacer saber a los servicios que la cuenta esta precerrada y no pueden aplicar nuevos examenes.
 - **Estado**: Estado de la factura (Pendiente, Pagada, etc.).
 - **Cédula**: Número de cédula del paciente, este dato pertenece a el id de paciente que se creo o existia en la base de datos clientes/pacientes.
 - **Fecha de Egreso**: Fecha de egreso del paciente, fecha en que se dio culminado el acto medico para el paciente ambulatorio.
