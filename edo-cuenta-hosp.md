@@ -24,8 +24,8 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 - **Historia**: Número de historia clínica.
 - **No. Factura**: Número de la factura.
 - **Fec. de Ingreso**: Fecha de ingreso del paciente.
-- **IPTASA**: Tasa aplicada.
-- **Pre Factura**: Indica el status para dar el monto al seguro, este estado es antes de la facturacion.
+- **IDTasa**: Tasa aplicada, el id corresponde a un correlativo cada ves que se carga automaticamente las tasa publicada por el BCV, este Identificador agregado apunta al motno de la tasa cargada.
+- **Pre Factura**: Indica el status para dar el monto al seguro, este estado es antes de facturarla.
 - **Estado**: Estado de la cuenta en el saldo (Pendiente, Pagada, etc.).
 - **Cédula**: Número de cédula del paciente.
 - **Fec. de Egreso**: Fecha de egreso del paciente.
