@@ -36,9 +36,10 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 ##### **2.3. Montos y Totales**
 - **MONTO EXENTO**: Monto exento de impuestos.
 - **MONTO DESCUENTO**: Monto de descuento aplicado.
+- **MONTO EXENTO**: Monto exento de impuestos.
 - **MONTO IVA**: Monto del IVA.
 - **TOTAL FACTURADO**: Total facturado.
-- **MONTO IGTE**: Monto de otros impuestos.
+- **MONTO IGTF**: Monto de otros impuestos.
 - **MONTO COBRADO**: Monto cobrado.
 - **TOTAL SALDO**: Saldo total pendiente.
 
