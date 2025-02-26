@@ -53,6 +53,7 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 - **Total Monto**: Monto total del precio * cantidad.
 - **No. Recibo**: Número de recibo.
 - **Servicio**: Serivicio del recibo.
+- **Grupo**: Grupo del servicio que se utiliza para la impresion , los grupos de H.M o terceros no se modifican , siempren van en una fila totalizadas como Honorarios medicos(Gastos de terceros).Los terceros internamnete se generan con un correlaitvo consecutivo para    cada uno, este se actualiza cuando se factura la cuenta, y la tabla de servcios medicos actualiza el correlativo.
 
 ---
 
