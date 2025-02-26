@@ -24,14 +24,15 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 - **Historia**: Número de historia clínica.
 - **No. Factura**: Número de la factura.
 - **Fec. de Ingreso**: Fecha de ingreso del paciente.
-- **IDTasa**: Tasa aplicada, el id corresponde a un correlativo cada ves que se carga automaticamente las tasa publicada por el BCV, este Identificador agregado apunta al motno de la tasa cargada.
+- **IDTasa**: Tasa aplicada, el id corresponde a un correlativo cada ves que se carga automaticamente las tasa publicada por el BCV, este Identificador es un apuntador al motno de la tasa por fecha de la carga del BCV.
 - **Pre Factura**: Indica el status para dar el monto al seguro, este estado es antes de facturarla.
 - **Estado**: Estado de la cuenta en el saldo (Pendiente, Pagada, etc.).
 - **Cédula**: Número de cédula del paciente.
-- **Fec. de Egreso**: Fecha de egreso del paciente.
-- **Fec. de Factura**: Fecha de la factura.
-- **Coma. Pago**: Comentarios sobre el pago.
-- **Descripción**: Descripción adicional de la factura.
+- **Fecha de Ingreso**: Fecha de Ingreso del paciente.
+- **Fecha de Egreso**: Fecha de egreso del paciente.
+- **Fecha de Factura**: Fecha de emision de la factura creada a partir del edo de cuenta.
+- **Condicion de Pago**: Condicion de pago de La factura al ser generada.
+- **Descripción**: Descripción adicional y comentario de la cuenta paciente.
 
 ##### **2.3. Montos y Totales**
 - **MONTO EXENTO(EXE)**: Monto exento de impuestos(IVA).
