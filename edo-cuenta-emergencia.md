@@ -14,9 +14,12 @@ si los modulos estan integrados pueden cargarse desde el servicio correpondiente
 - **Identificador Paciente y Responsable**: Identificador paciente y titular , son correaltivos únicos, y al buscar un paciente por nombre, cedula etc ele sitema traera su identificador unico que se relaciona con los datos unico de su cedula.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico. Aqui aparece el medico que realiza la revision o preooperatorio si es el caso del paciente.
 - **Datos de Impresión**: Información adicional para la impresión del Edo de cuenta.
-- **Datos de cedula paciente/responsable**: Al ingresar la cedula el sistema busca de manera automatica todos los datos del paciente, llenando los campos del ingreso, si existen los traera de forma inmediata. 
+- **Datos de cedula paciente/responsable**: Al ingresar la cedula el sistema busca de manera automatica todos los datos del paciente, llenando los campos del ingreso, si existen los traera de forma inmediata.
 	igual pasa con el responsable, es de indicar que estos datos son necesarios y obligatorios para el ingreso.
 - **Paciente**: Nombre del paciente.
+- - igual pasa con el responsable, es de indicar que estos datos son necesarios y obligatorios para el ingreso.
+- **Paciente**: Nombre del paciente.
+- **Identificador**: Identificador único del paciente/responsable.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico.
 - **Datos de Impresión**: Información adicional para la impresión de la cuenta creada.
 
