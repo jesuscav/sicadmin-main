@@ -5,7 +5,7 @@
 #### **1. Descripción General**
 El formulario de gestión de cuentas del paciente es utilizado para gestionar los gastos de servicios y honorarios médicos asociados a un paciente. 
 La cuenta es creada por la historia, Los cargos pueden venir con items de Emergencia por pasar el paciente a hospitalizado,  
-Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Imagens, RX y Almacen. Tdoso los item apareceran referenciado por el numero de registro que lo origino, asi un cargo de rx tendra una numeracion que se envia a hospitalizacion y se agraga el cdoigo de grupo y su numero que lo genero, de tal manera que el numero de recibo indica su origen junto con su servicio.
+Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Imagens, RX y Almacen. Tdoso los item apareceran referenciado por el numero de registro que lo origino, asi un cargo de rx tendra una numeracion que se envia a hospitalizacion y se agraga el codigo de grupo y su numero que lo genero, de tal manera que el numero de recibo indica su origen junto con su servicio. tdoso los datos de la "cabecera" de admision se cargan automaticamente al registar el ingreso, asi que la informacion de paicnete y detalle a continuacion ya viene lista para cargar sus items de lineas.
 
 ---
 
@@ -14,19 +14,19 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 ##### **2.1. Información del Paciente y Responsable**
 - **Identificador Paciente**: Identifica los datos cargados en el formulario historia/paciente , estos datos seran reflejado como el Nombre y apellido del paciente.
 - **Cuenta Nro.**: Identificador único del paciente generado al ingreso por el formulario de admision paciente.
-- **Historia**: Historia único del paciente.
+- **Historia**: Historia único del paciente, al crear la historia en Historia paciente, se carga en la admision y de ahi al Edo de cuenta unico por paciente.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico.
 - **Datos de Impresión**: Información adicional para la impresión de la cuenta paciente, esta se envia por pantalla.
 
-##### **2.2. Detalles de la Factura**
+##### **2.2. Detalles de la cuenta**
 - **Código Servicio**: Código del servicio médico.
 - **No. Cuenta**: Número de cuenta asociado al paciente.
 - **Historia**: Número de historia clínica.
 - **No. Factura**: Número de la factura.
 - **Fec. de Ingreso**: Fecha de ingreso del paciente.
 - **IPTASA**: Tasa aplicada.
-- **Pre Factura**: Monto antes de la factura.
-- **Estado**: Estado de la factura (Pendiente, Pagada, etc.).
+- **Pre Factura**: Indica el status para dar el monto al seguro, este estado es antes de la facturacion.
+- **Estado**: Estado de la cuenta en el saldo (Pendiente, Pagada, etc.).
 - **Cédula**: Número de cédula del paciente.
 - **Fec. de Egreso**: Fecha de egreso del paciente.
 - **Fec. de Factura**: Fecha de la factura.
