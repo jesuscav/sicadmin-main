@@ -44,9 +44,10 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 - **MONTO COBRADO**: Monto cobrado. Sumatoria de abonos aplicados y totalizando el pago, incluye el IGTF.
 - **TOTAL SALDO**: Saldo total de la cuenta.
 
-##### **2.4. Detalles de Recibos**
-- **Lín**: Línea de detalle. Este campo es un numero incremental por cada registro agregado en las lineas de la cuenta.
-- **Código**: Código del servicio o Item. Este codigo corresponde a cualquier servicio a cobrar, por tanto aparece el servicio, correspondiente al c cargarlo, 
+##### **2.4. Registro de Lineas, Detalles de Recibos**
+- **Lín**: Línea de detalle. Este campo es un numero incremental por cada registro agregado en los registros de lineas  de la cuenta.
+- **Código o Item**: Código del Item. Este codigo corresponde a un movimeinto agrupado o detail que se carga a cobrar, esto representa cualquier servicio a cobrar a la cuenta, por tanto aparece el servicio, el codigo y recibo si corresponde.
+- Cuando el Item es un tercero que en el caso de las clinicas es un Honorrios Medico por lo genral, esto es una cxpagar que se factura y sera diferenciada en los libros de ventas por ser una colummna de terceros, no es un igreso clinico.
 - **Cantidad**: Cantidad del item o movimiento de servicio cargado.
 - **Precio**: precio del item o movimiento de servicio cargado.
 - **Total Monto**: Monto total del precio * cantidad.
