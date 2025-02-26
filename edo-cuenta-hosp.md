@@ -34,22 +34,23 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 - **Descripción**: Descripción adicional de la factura.
 
 ##### **2.3. Montos y Totales**
-- **MONTO EXENTO**: Monto exento de impuestos.
+- **MONTO EXENTO(EXE)**: Monto exento de impuestos(IVA).
 - **MONTO DESCUENTO**: Monto de descuento aplicado.
-- **MONTO EXENTO**: Monto exento de impuestos.
-- **MONTO IVA**: Monto del IVA.
-- **TOTAL FACTURADO**: Total facturado.
-- **MONTO IGTF**: Monto de otros impuestos.
-- **MONTO COBRADO**: Monto cobrado.
-- **TOTAL SALDO**: Saldo total pendiente.
+- **MONTO BASE(ORD)**: Monto base para el impuesto(IVA).
+- **MONTO IVA**: Monto del IVA TOTAL CALCULADO.
+- **TOTAL CUENTA**: Total facturado que corresponde al monto Exento + Monto Base + Monto IVA.
+- **MONTO IGTF**: Monto de otros impuestos(IGTF 3%). Este monto sera reflejado al moneto de facturar, el cuel ya a sido cobrado en Caja y enviado a la cta al momento de Facturar.
+- **MONTO COBRADO**: Monto cobrado. Sumatoria de abonos aplicados y totalizando el pago, incluye el IGTF.
+- **TOTAL SALDO**: Saldo total de la cuenta.
 
 ##### **2.4. Detalles de Recibos**
-- **Lín**: Línea de detalle.
-- **Código**: Código del servicio o producto.
-- **Monito**: Monto individual.
-- **Total Monto**: Monto total.
+- **Lín**: Línea de detalle. Este campo es un numero incremental por cada registro agregado en las lineas de la cuenta.
+- **Código**: Código del servicio o Item. Este codigo corresponde a cualquier servicio a cobrar, por tanto aparece el servicio, correspondiente al c cargarlo, 
+- **Cantidad**: Cantidad del item o movimiento de servicio cargado.
+- **Precio**: precio del item o movimiento de servicio cargado.
+- **Total Monto**: Monto total del precio * cantidad.
 - **No. Recibo**: Número de recibo.
-- **Ser**: Serie del recibo.
+- **Servicio**: Serivicio del recibo.
 
 ---
 
