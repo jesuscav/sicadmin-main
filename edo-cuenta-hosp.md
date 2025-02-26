@@ -14,7 +14,7 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 ##### **2.1. Información del Paciente y Responsable**
 - **Identificador Paciente**: Identifica los datos cargados en el formulario historia/paciente , estos datos seran reflejado como el Nombre y apellido del paciente.
 - **Cuenta Nro.**: Identificador único del paciente generado al ingreso por el formulario de admision paciente.
-- **Historia**: Historia único del paciente, al crear la historia en Historia paciente, se carga en la admision y de ahi al Edo de cuenta unico por paciente.
+- **Historia**: Historia único del paciente, al crearla en Historia paciente, esto se carga por el proceso de la admision.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico.
 - **Datos de Impresión**: Información adicional para la impresión de la cuenta paciente, esta se envia por pantalla.
 
