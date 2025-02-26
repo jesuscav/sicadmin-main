@@ -3,8 +3,8 @@
 ### **Documentación para el Formulario de Gestión de Cuentas del Paciente**
 
 #### **1. Descripción General**
-El formulario de gestión de cuentas del paciente es utilizado para gestionar los gastos y honorarios médicos asociados a un paciente. 
-Aqui Registramos los Item que se cargaran a la cuenta creada por la historia, Los cargos pueden venir con items de Emergencia por pasar el paciente a hospitalizado,  
+El formulario de gestión de cuentas del paciente es utilizado para gestionar los gastos de servicios y honorarios médicos asociados a un paciente. 
+La cuenta es creada por la historia, Los cargos pueden venir con items de Emergencia por pasar el paciente a hospitalizado,  
 Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Imagens, RX y Almacen. Tdoso los item apareceran referenciado por el numero de registro que lo origino, asi un cargo de rx tendra una numeracion que se envia a hospitalizacion y se agraga el cdoigo de grupo y su numero que lo genero, de tal manera que el numero de recibo indica su origen junto con su servicio.
 
 ---
@@ -12,10 +12,11 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 #### **2. Campos del Formulario**
 
 ##### **2.1. Información del Paciente y Responsable**
-- **Paciente**: Nombre del paciente.
-- **Idx**: Identificador único del paciente.
+- **Identificador Paciente**: Identifica los datos cargados en el formulario historia/paciente , estos datos seran reflejado como el Nombre y apellido del paciente.
+- **Cuenta Nro.**: Identificador único del paciente del ingreso.
+- **Historia**: Historia único del paciente.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico.
-- **Datos de Impresión**: Información adicional para la impresión de la factura.
+- **Datos de Impresión**: Información adicional para la impresión de la cuenta paciente, esta se envia por pantalla.
 
 ##### **2.2. Detalles de la Factura**
 - **Código Servicio**: Código del servicio médico.
