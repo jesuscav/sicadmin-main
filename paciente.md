@@ -54,15 +54,16 @@ El formulario de registro de pacientes es utilizado para capturar y almacenar in
 	Si es una cedula de Extranjero muy grande se carga perfectamente en el RIF, el sistema siempre al emitir una factura imprime es el campo RIF.
 	Cuando el paciente es un menor de edad que no posee cedula el sistema toma como base la cedula del padre o madre y utiliza un correlativo de descendiente >0 para identificarlo.
 	En este caso debe existir en la admision un responsable el cual sera su madre, padre  o alguien definido en su ingreso.
-10. **Historia Manual**: Si existe, ingrese el número de historia clínica manual.
-11. **Historia Nro**: Ingrese el número de historia clínica electrónica.
-12. **Activo**: Marque esta casilla si el paciente está activo en el sistema.
-13. **Dirección**: Ingrese la dirección completa del paciente.
-14. **Estado y Ciudad**: Seleccione el estado y la ciudad de residencia.
-15. **Lugar de Nacimiento**: Ingrese el lugar de nacimiento del paciente.
-16. **Parentesco**: Si aplica, seleccione el parentesco del paciente.
-17. **Ocupación**: Ingrese la ocupación del paciente.
-18. **Fecha Creación y Modificación**: Estas fechas se registrarán automáticamente.
+	Por supuesto este Responsable para el caso sera el RIF de Factura que se impima.
+11. **Historia Manual**: Si existe, ingrese el número de historia clínica manual.
+12. **Historia Nro**: Ingrese el número de historia clínica electrónica.
+13. **Activo**: Marque esta casilla si el paciente está activo en el sistema.
+14. **Dirección**: Ingrese la dirección completa del paciente.
+15. **Estado y Ciudad**: Seleccione el estado y la ciudad de residencia.
+16. **Lugar de Nacimiento**: Ingrese el lugar de nacimiento del paciente.
+17. **Parentesco**: Si aplica, seleccione el parentesco del paciente.
+18. **Ocupación**: Ingrese la ocupación del paciente.
+19. **Fecha Creación y Modificación**: Estas fechas se registrarán automáticamente.
 18. **Razon Social**:Campo Compuesto por el Nombre y Apellido del Paciente, pero puede ser modificado para una razon social de un RIF personal.
 
 ---
