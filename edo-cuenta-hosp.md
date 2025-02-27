@@ -12,7 +12,8 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 #### **2. Campos del Formulario**
 
 ##### **2.1. Información del tab de controles en el menu*
-- **Paciente**: Identifica los datos cargados en el formulario historia/paciente , estos datos seran reflejado como el Nombre y apellido del paciente.
+- **Paciente**: Identifica los datos cargados en el formulario historia/paciente , estos datos seran reflejado completanmente aqui en el  paciente. 
+    Todo relacionado con el paciente fecha de naciemiento, hitoria , cedula etc.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico, datos relacionados con responsable de la cuenta.
 - **Datos de Impresión**: Información adicional de quien imprime la cuenta, quien la factura, fecha de proceso etc.
 - **Cobranza**: Información adicional que se refiere a la cobranza se generada al momento de facturar.
