@@ -6,25 +6,28 @@
 El formulario de gestión de cuentas del paciente es utilizado para gestionar los gastos de servicios y honorarios médicos asociados a un paciente. 
 La cuenta es creada por la historia, Los cargos pueden venir con items de Emergencia por pasar el paciente a hospitalizado,  
 Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Imagens, RX y Almacen. Tdoso los item apareceran referenciado por el numero de registro que lo origino, asi un cargo de rx tendra una numeracion que se envia a hospitalizacion y se agraga el codigo de grupo y su numero que lo genero, de tal manera que el numero de recibo indica su origen junto con su servicio. tdoso los datos de la "cabecera" de admision se cargan automaticamente al registar el ingreso, asi que la informacion de paicnete y detalle a continuacion ya viene lista para cargar sus items de lineas.
-
+Todos los Precios referenciado por el Idtasa corresponden a la tasa publicada por el BCV, estan los Precios "VES" o Bs que tienen los item de servicios, y los que hara referencia el Idtasa por la conversion que aplica el sistema.
+Dollar "USD", Euro "EURO" etc.
+Estos Campos se muestran en las Monedas que se establescan al sistema, la moneda oficial "VES" simbolo Bs. , y las divisas publicadas en "DOLLAR" simbolo $, "EURO" etc,si se quieren cargar cualquier otro tipo de tasa publicada se configura y el sistema lo hace.
+Actualmente se presentan en dos monedas, "Bs" y "$".
 ---
 
 #### **2. Campos del Formulario**
 
-##### **2.1. Información del tab de controles en el menu*
+##### **2.1. Información del tab de controles en el Formulario*
 - **Paciente**: Identifica los datos cargados en el formulario historia/paciente , estos datos seran reflejado completanmente aqui en el  paciente. 
     Todo relacionado con el paciente fecha de naciemiento, hitoria , cedula etc.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico, datos relacionados con responsable de la cuenta.
 - **Datos de Impresión**: Información adicional de quien imprime la cuenta, quien la factura, fecha de proceso etc.
 - **Cobranza**: Información adicional que se refiere a la cobranza se generada al momento de facturar.
 
-##### **2.2. Detalles de la cuenta**
+##### **2.2. Detalles de la cuenta Cabecera**
 - **Código Servicio**: Código del servicio médico.
 - **No. Cuenta**: Número de cuenta asociado al paciente.
 - **Historia**: Número de historia clínica.
 - **No. Factura**: Número de la factura.
 - **Fec. de Ingreso**: Fecha de ingreso del paciente.
-- **IDTasa**: Tasa aplicada, el id corresponde a un correlativo cada ves que se carga automaticamente las tasa publicada por el BCV, este Identificador es un apuntador al motno de la tasa por fecha de la carga del BCV.
+- **IdTasa**: Tasa aplicada, el id corresponde a un correlativo cada ves que se carga automaticamente las tasa publicada por el BCV, este Identificador es un apuntador al precio de la tasa por fecha emitida por el BCV.
 - **Pre Factura**: Indica el status para dar el monto al seguro, este estado es antes de facturarla.
 - **Estado**: Estado de la cuenta en el saldo (Pendiente, Pagada, etc.).
 - **Cédula**: Número de cédula del paciente.
@@ -33,9 +36,13 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 - **Fecha de Factura**: Fecha de emision de la factura creada a partir del edo de cuenta.
 - **Condicion de Pago**: Condicion de pago de La factura al ser generada.
 - **Descripción**: Descripción adicional y comentario de la cuenta paciente.
+- **Referencia**: Refernecia 1,2,3.. etc segun el convenio de Credito Seguro, le dice al sistema bajo que convenio si existe, se aplican los rubros del seguro, cuando un seguro tiene un convenio la factura se resume a una predefinicion
+de gastos, el cual el seguro aprobo por un convenio, esta refrencia indica eso. Los cobros de facturas por convenio ya tienen fijado precios por grupos de servicios, y por tanto la referencia define eso segun las plantillas de convenio.
 
 ##### **2.3. Montos y Totales**
-- **MONTO EXENTO(EXE)**: Monto exento de impuestos(IVA).
+Estas se mostraran en un TAB Control o pestanam para VES y DOLLAR.
+. 
+ **MONTO EXENTO(EXE)**: Monto exento de impuestos(IVA).
 - **MONTO DESCUENTO**: Monto de descuento aplicado.
 - **MONTO BASE(ORD)**: Monto base para el impuesto(IVA).
 - **MONTO IVA**: Monto del IVA TOTAL CALCULADO.
