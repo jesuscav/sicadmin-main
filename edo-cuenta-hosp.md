@@ -63,27 +63,28 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
    - Ingrese el nombre del paciente, el identificador único (Idx), y el nombre del responsable del seguro o médico.
    - Proporcione cualquier información adicional necesaria para la impresión de la factura.
 
-2. **Detalles de la Factura**:
-   - Complete el código del servicio, número de cuenta, número de historia clínica, número de factura, fecha de ingreso, tasa aplicada (IPTASA), monto antes de la factura, estado de la factura, cédula del paciente, fecha de egreso, fecha de la factura, comentarios sobre el pago y una descripción adicional.
+2. **Detalles de la Cuenta al Facturar**:
+   - Complete el código del servicio, número de cuenta, número de historia clínica, número de factura, fecha de ingreso, tasa aplicada (IdTasa), monto facturado(del total de la cuenta), estado de la factura, cédula del paciente, fecha de egreso, fecha y hora de emision factura, condicion de pago y una descripción adicional.
 
 3. **Montos y Totales**:
-   - Ingrese el monto exento, monto de descuento, monto del IVA, total facturado, monto de otros impuestos, monto cobrado y el saldo total pendiente.
+   - Los montos son calculados automaticamente: monto exento, monto base, monto del IVA, total facturado, monto de otros impuestos, monto cobrado y el saldo total.
 
-4. **Detalles de Recibos**:
-   - Proporcione los detalles de cada recibo, incluyendo la línea de detalle, código del servicio o producto, monto individual, monto total, número de recibo y serie del recibo.
+4. **Lineas de Registros o Detalles de Recibos**:
+   - Proporcione los detalles de cada recibo, incluyendo la línea de detalle,  código del servicio origen, item o codigo, precio,cantidad, monto total, número de recibo caso de servicios que se involucran, se lleva una fecha de cada registro, usuario y maquina que lo creo.Estos datos ultimos son ocultos y no se pueden modificar.
 
 ---
 
 #### **4. Validaciones y Restricciones**
 
-- **Campos Obligatorios**: Paciente, Idx, Código Servicio, No. Cuenta, No. Factura, Fec. de Ingreso, Estado, Cédula, Fec. de Egreso, Fec. de Factura, MONTO EXENTO, MONTO DESCUENTO, MONTO IVA, TOTAL FACTURADO, MONTO IGTE, MONTO COBRADO, TOTAL SALDO.
+- **Campos Obligatorios**: Identificador Paciente, Identificador Responsable, Código Item, No. Cuenta,  Fecha de Ingreso, Estado, Cédula, Fecha de Egreso,  MONTO EXENTO, MONTO DESCUENTO, MONTO IVA, TOTAL FACTURADO, MONTO IGTE, MONTO COBRADO, TOTAL SALDO.
 - **Formato de Fecha**: Las fechas deben estar en formato DD/MM/AAAA.
 - **Longitud Máxima**:
   - Nombre del Paciente: 100 caracteres.
   - Código Servicio: 20 caracteres.
   - No. Cuenta: 15 caracteres.
   - No. Factura: 15 caracteres.
-  - Descripción: 200 caracteres.
+  - Serie : 5 caracteres
+  - Descripción: 1080 caracteres.
 
 ---
 
@@ -95,20 +96,20 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 
 #### **6. Flujo de Trabajo**
 
-1. El usuario ingresa la información del paciente y los detalles de la factura en los campos correspondientes.
-2. El usuario ingresa los montos y totales asociados a la factura.
-3. El usuario proporciona los detalles de los recibos.
-4. El usuario hace clic en "Guardar" para registrar la información.
+1. El usuario ingresa la información del paciente y los detalles de la cuenta en la admision, previamente cargada la historia, todos esto al llenar la admision se carga automaticamente los campos correspondientes.
+2. El usuario  generara la Factura paciente por facturacion.
+3. El usuario proporciona los detalles de las lineas correspondientes a convenios con seguros, descuentos aplicados por autorizaciones administrativas.
+4. El usuario hace clic en "Guardar" para registrar la información decada linea, una ves que se aplica el proceso de facturacion solo se podra Aplicar Notas de creditos o debitos para realizar modificacion ya en la factura generada.
    - Si los campos obligatorios están completos y válidos, la información se registra en el sistema.
    - Si hay errores, se muestran mensajes de validación.
-5. El usuario puede hacer clic en "Cancelar" para limpiar el formulario y descartar los cambios.
+5. El usuario puede hacer clic en "Cancelar" para limpiar la linea de el formulario y descartar los cambios.
 
 ---
 
 #### **7. Pruebas**
 
-- **Caso 1**: Completar todos los campos obligatorios y hacer clic en "Guardar". Resultado esperado: Registro exitoso.
-- **Caso 2**: Dejar campos obligatorios vacíos y hacer clic en "Guardar". Resultado esperado: Mensajes de error.
+- **Caso 1**: Completar todos los campos obligatorios y hacer clic en "Guardar<F1>". Resultado esperado: Registro exitoso.
+- **Caso 2**: Dejar campos obligatorios vacíos y hacer clic en "Guardar<F1>". Resultado esperado: Mensajes de error.
 - **Caso 3**: Hacer clic en "Cancelar". Resultado esperado: Limpiar el formulario.
 
 ---
