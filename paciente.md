@@ -33,7 +33,7 @@ El formulario de registro de pacientes es utilizado para capturar y almacenar in
 - **Lugar de Nacimiento**: Lugar donde nació el paciente.
 
 ##### **2.4. Información Adicional**
-- **Parentesco**: Relación familiar o de parentesco (si aplica).
+- **Parentesco**: Relación familiar o de parentesco (si aplica). En un Mayor de edad no aplica. Solo en menores que tienen descendientes >0.
 - **Ocupación**: Profesión u ocupación del paciente.
 - **Fecha Creación**: Fecha en que se registró al paciente en el sistema.
 - **Fecha Modificación**: Fecha de la última modificación del registro.
@@ -48,9 +48,12 @@ El formulario de registro de pacientes es utilizado para capturar y almacenar in
 4. **Meses (Infante)**: Si el paciente es un infante, ingrese la edad en meses.
 5. **Sexo**: Seleccione el género del paciente.
 6. **Foto Paciente**: Cargue una foto reciente del paciente.
-7. **Nacionalidad**: Seleccione la nacionalidad del paciente.
-8. **Cédula**: Ingrese el número de cédula del paciente.
-9. **RIF**: Si aplica, ingrese el RIF del paciente.
+7. **Nacionalidad**: Seleccione la nacionalidad del paciente."V"enezolano,"E"xtranejero,"P"asaporte
+8. **Cédula**: Ingrese el número de cédula del paciente.tiene 12 caracteres. 
+9. **RIF**: Si aplica, El Rif por defecto se compone con la Nacionalidad("V","E","P") y la cedula paciente, ingrese el RIF del paciente.
+	Si es una cedula de Extranjero muy grande se carga perfectamente en el RIF, el sistema siempre al emitir una factura imprime es el campo RIF.
+	Cuando el paciente es un menor de edad que no posee cedula el sistema toma como base la cedula del padre o madre y utiliza un correlativo de descendiente >0 para identificarlo.
+	En este caso debe existir en la admision un responsable el cual sera su madre, padre  o alguien definido en su ingreso.
 10. **Historia Manual**: Si existe, ingrese el número de historia clínica manual.
 11. **Historia Nro**: Ingrese el número de historia clínica electrónica.
 12. **Activo**: Marque esta casilla si el paciente está activo en el sistema.
@@ -66,8 +69,8 @@ El formulario de registro de pacientes es utilizado para capturar y almacenar in
 
 #### **4. Validaciones y Restricciones**
 
-- **Campos Obligatorios**: Nombre, Apellido, Fecha de Nacimiento, Sexo, Cédula, Dirección, Estado, Ciudad.
-- **Formato de Fecha**: La fecha de nacimiento debe estar en formato DD/MM/AAAA.
+- **Campos Obligatorios**: Nombre, Apellido, Fecha de Nacimiento, Sexo, Cédula, Dirección, RIF, Razon Social, Estado, Ciudad.
+- **Formato de Fecha**: Las fechas deben estar en formato DD/MM/AAAA.Por defecto se carga como 8 digitos seguidos y el sistema aplica el formato mencionado.
 - **Longitud Máxima**:
   - Nombre y Apellido: 100 caracteres.
   - Cédula: 15 caracteres.
@@ -78,7 +81,7 @@ El formulario de registro de pacientes es utilizado para capturar y almacenar in
 
 #### **5. Ejemplo de Interfaz**
 
-![Historia Paciente](images/CDatosPaciente.JPG)
+![Historia Paciente](images/PACIENTES/CDatosPaciente.JPG)
 
 ---
 
