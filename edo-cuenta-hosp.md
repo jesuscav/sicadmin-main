@@ -15,7 +15,7 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 - **Paciente**: Identifica los datos cargados en el formulario historia/paciente , estos datos seran reflejado como el Nombre y apellido del paciente.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico, datos relacionados con responsable de la cuenta.
 - **Datos de Impresión**: Información adicional de quien imprime la cuenta, quien la factura, fecha de proceso etc.
-- **Cobranza**: Información adicional que se refiere a la cxcobrar, y permiti dirigirse a la cobranza de la misma, esto cuando se genera la Factura.
+- **Cobranza**: Información adicional que se refiere a la cobranza se generada al momento de facturar.
 
 ##### **2.2. Detalles de la cuenta**
 - **Código Servicio**: Código del servicio médico.
