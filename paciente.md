@@ -84,19 +84,23 @@ El formulario de registro de pacientes es utilizado para capturar y almacenar in
 
 ![Historia Paciente](images/PACIENTES/CDatosPaciente.JPG)
 
----
+#### **6. Ejemplo de Interfaz de Busqueda**
+	Esta interfaz permite buscar por campo cedula o razon social en lista al paciente o responsable, esto sirve si al cargar una admision o una cuenta ambulatoria no encuentra la cedula o rif, pero el ingreso a la clinica en algun moneto de la historia, 
+	asi que podra buscar los datos como paciente y copiar para registrar su cedula y datos pertinenetes, la misma para su ingresos, solo hacer las modificaciones que necesita sobre la copia, ya que la original no podra modificar cedula.
 
-#### **6. Flujo de Trabajo**
+![Historia Paciente](images/PACIENTES/CpacientesFrm.JPG)
+	
+#### **7. Flujo de Trabajo**
 
 1. El usuario ingresa la información del paciente en los campos correspondientes.
-2. El usuario hace clic en "Guardar" <F1> para registrar al paciente.
+2. El usuario hace clic en "Guardar" <F1> para registrar al paciente o responsable.
    - Si los campos obligatorios están completos y válidos, el paciente se registra en el sistema.
    - Si hay errores, se muestran mensajes de validación.
 3. El usuario puede hacer clic en "Cancelar" para limpiar el formulario y descartar los cambios.
 
 ---
 
-#### **7. Pruebas**
+#### **8. Pruebas**
 
 - **Caso 1**: Completar todos los campos obligatorios y hacer clic en "Guardar". Resultado esperado: Registro exitoso.
 - **Caso 2**: Dejar campos obligatorios vacíos y hacer clic en "Guardar". Resultado esperado: Mensajes de error.
