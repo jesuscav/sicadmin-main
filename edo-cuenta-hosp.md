@@ -14,7 +14,7 @@ Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Image
 ##### **2.1. Información del tab de controles en el menu*
 - **Paciente**: Identifica los datos cargados en el formulario historia/paciente , estos datos seran reflejado como el Nombre y apellido del paciente.
 - **Responsable Seguro / Médico**: Nombre del responsable del seguro o médico, datos relacionados con responsable de la cuenta.
-- **Datos de Impresión**: Información adicional para la impresión de la cuenta paciente, esta se envia por pantalla.
+- **Datos de Impresión**: Información adicional de quien imprime la cuenta, quien la factura, fecha de proceso etc.
 
 ##### **2.2. Detalles de la cuenta**
 - **Código Servicio**: Código del servicio médico.
