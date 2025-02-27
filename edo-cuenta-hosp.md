@@ -8,9 +8,11 @@ La cuenta es creada por la historia, Los cargos pueden venir con items de Emerge
 Esta  Agrupa los cargos de los servicios si es integrado con Laboratorio , Imagens, RX y Almacen. Tdoso los item apareceran referenciado por el numero de registro que lo origino,
 asi un cargo de rx tendra una numeracion que se envia a hospitalizacion y se agraga el codigo de grupo y su numero que lo genero, de tal manera que el numero de recibo indica su origen junto con su servicio. 
 Todos los datos de la "cabecera" de admision se cargan automaticamente al registar el ingreso, asi que la informacion de paciente y detalle se carga asi como sus items de lineas.
+
 Todos los Precios referenciado por el Idtasa corresponden a la tasa publicada por el BCV, estan los Precios "VES" o Bs que tienen los item de servicios, y los que hara referencia el Idtasa por la conversion que aplica el sistema.
-Dollar "USD", Euro "EURO" etc.
-Estos Campos se muestran en las Monedas que se establescan al sistema, la moneda oficial "VES" simbolo Bs. , y las divisas publicadas en "DOLLAR" simbolo $, "EURO" etc,si se quieren cargar cualquier otro tipo de tasa publicada se configura y el sistema lo hace.
+Dollar USD, EURO" etc.
+Estos Campos se muestran en las Monedas que se establescan al sistema, la moneda oficial "VES" simbolo Bs. , y las divisas publicadas en "DOLLAR" simbolo $, "EURO" etc
+Se puede cargar cualquier otro tipo de tasa publicada solo se configura y el sistema lo hace.
 Actualmente se presentan en dos monedas, "Bs" y "$".
 ---
 
