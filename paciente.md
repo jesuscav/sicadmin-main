@@ -60,6 +60,7 @@ El formulario de registro de pacientes es utilizado para capturar y almacenar in
 16. **Parentesco**: Si aplica, seleccione el parentesco del paciente.
 17. **Ocupación**: Ingrese la ocupación del paciente.
 18. **Fecha Creación y Modificación**: Estas fechas se registrarán automáticamente.
+18. **Razon Social**:Campo Compuesto por el Nombre y Apellido del Paciente, pero puede ser modificado para una razon social de un RIF personal.
 
 ---
 
@@ -84,7 +85,7 @@ El formulario de registro de pacientes es utilizado para capturar y almacenar in
 #### **6. Flujo de Trabajo**
 
 1. El usuario ingresa la información del paciente en los campos correspondientes.
-2. El usuario hace clic en "Guardar" para registrar al paciente.
+2. El usuario hace clic en "Guardar" <F1> para registrar al paciente.
    - Si los campos obligatorios están completos y válidos, el paciente se registra en el sistema.
    - Si hay errores, se muestran mensajes de validación.
 3. El usuario puede hacer clic en "Cancelar" para limpiar el formulario y descartar los cambios.
