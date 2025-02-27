@@ -68,7 +68,7 @@ El formulario de facturación a pacientes es utilizado para generar facturas de 
 
 #### **5. Ejemplo de Interfaz**
 
-![Facturacion de paciente](images/CFacturaHosp.JPG)
+![Facturacion de paciente](images/FACTURAHOSP/CFacturaHosp.JPG)
 
 ---
 
