@@ -86,18 +86,13 @@ Una vez que la factura es generada, no puede ser modificada. Si es necesario anu
    - Si hay errores, se muestran mensajes de validación.
 4. El usuario puede hacer clic en "Cancelar" para limpiar el formulario y descartar los cambios.
 
----
-
-#### **7. Anulación de Facturas**
-
-- **Nota de Crédito**: La única forma de anular una factura es mediante la emisión de una nota de crédito. La nota de crédito debe incluir el número de la factura original y los detalles de la anulación.
 
 ---
 
 #### **8. Pruebas**
 
 - **Caso 1**: Completar todos los campos obligatorios y hacer clic en "Guardar". Resultado esperado: Factura generada exitosamente.
-- **Caso 2**: Dejar campos obligatorios vacíos y hacer clic en "Guardar". Resultado esperado: Mensajes de error.
+- **Caso 2**: Dejar campos obligatorios vacíos y hacer clic en "Guardar"<F1>. Resultado esperado: Mensajes de error.
 - **Caso 3**: Hacer clic en "Cancelar". Resultado esperado: Limpiar el formulario.
 
 ---
