@@ -58,7 +58,7 @@ El formulario de registro de pacientes es utilizado para capturar y almacenar in
 11. **Historia Manual**: Si existe, ingrese el número de historia clínica manual.
 12. **Historia Nro**: Ingrese el número de historia clínica electrónica.
 13. **Activo**: Marque esta casilla si el paciente está activo en el sistema.
-14. **Dirección**: Ingrese la dirección completa del paciente.
+14. **Dirección**: Ingrese la dirección completa del paciente o responsable, el caso de responsable y es su direccion fiscal..
 15. **Estado y Ciudad**: Seleccione el estado y la ciudad de residencia.
 16. **Lugar de Nacimiento**: Ingrese el lugar de nacimiento del paciente.
 17. **Parentesco**: Si aplica, seleccione el parentesco del paciente.
