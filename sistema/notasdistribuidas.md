@@ -7,6 +7,7 @@ El formulario de **Notas de Crédito/Débito Distribuidas** permite crear notas 
  
  La única forma de anular una factura es mediante la emisión de una nota de crédito. La nota de crédito debe incluir el número de la factura original y los detalles de la anulación.
  Debe Ingresarse a la impresion el Nro de control a Imprimir.
+ Este proceso permitir realizar Notas Debito o Notas Creditos, para el Sistema es un Documento configurado para debitar o acreditar la factura.
 
 ---
 
