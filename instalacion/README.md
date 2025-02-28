@@ -28,7 +28,9 @@ Por último, MultiWay se encarga de la traducción de sentencias de SQL entre lo
 ### **Índice**
 
 ![Instalacion](Imagenes/imageninstall1.jpg)
+
 Con esta implementación todas las conexiones a la Base de Datos se monitorean, deben pasar por ahí y todos los  accesos visualizarse, por tanto se pueden bloquear, eliminar y verificar su estado.
+
 ![Instalacion](Imagenes/imageninstall2.jpg)
 
 
