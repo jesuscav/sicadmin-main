@@ -27,7 +27,7 @@ Por último, MultiWay se encarga de la traducción de sentencias de SQL entre lo
 
 ### **Índice**
 
-
+![Instalacion](instalacion/Imagenes/imageninstall1.jpg)
 1. **Anexos**
    - Glosario de términos
    - Capturas de pantalla adicionales
