@@ -24,6 +24,3 @@ Esta documentación está dirigida a usuarios, administradores, personal médico
    - Glosario de términos
    - Capturas de pantalla adicionales
    - Enlaces útiles y recursos
-
----
-
