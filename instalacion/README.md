@@ -54,6 +54,7 @@ Una tabla de movimientos debe ser creada con la misma estructura de campos de la
 Los dos primeros campos son obligatorios, y además deben aparecer en ese orden por delante de los campos de la tabla a analizar. Los cuatro restantes son opcionales.
 El hecho de almacenar un «serial» en la tabla de movimientos responde a la necesidad de poder tener una clave en dicha tabla que identifique unívocamente cada una de las filas, para que se pueda distinguir el orden en que se hicieron las operaciones sobre la tabla analizada. No obstante, esto hace que si en una tabla analizada tenemos un campo «serial», deberemos sustituirlo en la tabla de movimientos por un «integer», ya que  CTSQL no puede tener una tabla con dos campos de este tipo.
 Configuración
+
 Los pasos a seguir para activar este mecanismos son los siguientes:
 2.1	Se utiliza un fichero de configuración que indicará para qué tabla o tablas de la base de datos se ha de utilizar este mecanismo (es decir, qué taba se desea analizar). Este fichero, llamado «systablog», es un fichero de texto que deberá estar situado en el directorio de la base de datos y habrá de tener permiso de lectura para todos los usuarios.
 La estructura del fichero consta de tres campos separados por espacios en blanco:
