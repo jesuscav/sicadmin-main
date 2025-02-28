@@ -36,7 +36,7 @@ Con esta implementación todas las conexiones a la Base de Datos se monitorean, 
 
 ## **Monitoreo y Auditoria** 
 
-Para las auditorias utilizamos el Mecanismo de Tablog.
+2 Para las auditorias utilizamos el Mecanismo de Tablog.
 Permite mantener un registro, «o log», de operaciones de inserción, borrado y modificación sobre tablas. Los datos relativos a esas operaciones se almacenan en tablas de la base de datos que deben ser creadas por los usuarios exclusivamente para ese fin.
 Así pues, para cada tabla de la base de datos cuyas operaciones se deseen registrar deberá existir otra tabla en la base de datos en la cual se almacenará información sobre dichas operaciones. Nos referiremos a esta segunda tabla como tabla de movimientos.
 tabla de movimientos
@@ -73,6 +73,7 @@ provincias provmov UD
 unidades unimov
 Con esta configuración, la tabla de movimientos para clientes guardaría información acerca de la fecha, la hora, el usuario y la dirección IP; la tabla de movimientos para provincias guardaría información sobre el usuario y la fecha, y la tabla de movimientos para unidades guardaría información sobre la fecha (la información por defecto). Además, todas ellas guardarían el código de la operación, un «serial» y el registro sobre el que se ha actualizado.
 2.2	Las tablas de movimientos asociadas son tablas de la base de datos, y han de estar creadas antes de activar este mecanismo. La estructura de campos de una tabla de movimientos será la misma que la de la tabla a la que se refiere, pero por delante llevará los campos obligatorios que se ha descrito anteriormente, y tras éstos, los opcionales, siempre en el mismo orden en que aparecen en la especificación de «systalog». Es decir, para el «systablog» del ejemplo anterior, si la estructura de la tablas «clientes», «provincias» y «unidades» es:
+
 create table clientes
 (cli smallint, 
 nom char(20), 
@@ -82,6 +83,7 @@ prov char(40))
 create table provincias
 (codigo smallint, 
 nombre char(20))
+
  
 create table unidades
 (unidad serial, 
@@ -95,6 +97,7 @@ hora time,
 usuario char(16),
 dirip char(16),
 cli smallint, nom char(20), prov char(40))
+
  
 create table provmov
 (op char(1),
