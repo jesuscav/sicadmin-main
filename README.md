@@ -15,7 +15,7 @@ Esta documentación está dirigida a usuarios, administradores, personal médico
 
 1. **Manuales de Usuario**
    - [Instalacion y configuracion](instalacion/README.md)
-   - [Manual del Usuario](sistemas/README.md)
+   - [Manual del Usuario](sistema/README.md)
 
 2. **Manuales tecnicos**
    - [Manuales tecnicos](cosmos/README.md)
