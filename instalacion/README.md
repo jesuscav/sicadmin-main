@@ -28,18 +28,9 @@ Por último, MultiWay se encarga de la traducción de sentencias de SQL entre lo
 ### **Índice**
 
 
-1. **Ingresando al sistema**
-   - [Iniciar sesion](common.md)
+   - [Instalacion/imagenes](ImagenInstalacion1.JPG)
 
-2. **Facturacion de pacientes**
-   - [Formulario de Registro de Pacientes](paciente.md)
-   - [Formulario de Admisión de Pacientes](admision-paciente.md)
-   - [Formulario de Gestión de Cuentas del Paciente](edo-cuenta-ambulatorio.md)
-   - [Formulario de Facturación a Pacientes](factura-hosp.md)
-   - [Consultar Notas de credito / debito](notasdc.md)
-   - [Generar Notas de credito / debito](notasdistribuidas.md)
-
-3. **Anexos**
+1. **Anexos**
    - Glosario de términos
    - Capturas de pantalla adicionales
    - Enlaces útiles y recursos
