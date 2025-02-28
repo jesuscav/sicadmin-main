@@ -14,8 +14,8 @@ Esta documentación está dirigida a usuarios de sistemas, administradores, pers
 
 
 1. **Manuales de Usuario**
-   - [Instalacion y configuracion](doc/sicadmin-main/instalacion/README.md)
-   - [Manual del Usuario](doc/sicadmin-main/sicadmin-main/sistemas/README.md)
+   - [Instalacion y configuracion](instalacion/README.md)
+   - [Manual del Usuario](sistemas/README.md)
 
 2. **Manuales tecnicos**
    - [Manuales tecnicos](doc/cosmos/README.md)
