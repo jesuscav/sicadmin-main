@@ -14,11 +14,11 @@ Esta documentación está dirigida a usuarios, administradores, personal médico
 
 
 1. **Manuales de Usuario**
-   - [Instalacion y configuracion](doc/sicadmin-main/instalacion/README.md)
-   - [Manual del Usuario](doc/sicadmin-main/sistemas/README.md)
+   - [Instalacion y configuracion](sicadmin-main/instalacion/README.md)
+   - [Manual del Usuario](sicadmin-main/sistemas/README.md)
 
 2. **Manuales tecnicos**
-   - [Manuales tecnicos](doc/sicadmin-main/cosmos/README.md)
+   - [Manuales tecnicos](sicadmin-main/cosmos/README.md)
 
 3. **Anexos**
    - Glosario de términos
