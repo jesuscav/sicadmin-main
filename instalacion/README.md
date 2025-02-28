@@ -34,9 +34,10 @@ Con esta implementación todas las conexiones a la Base de Datos se monitorean, 
 ![Instalacion](Imagenes/imageninstall2.jpg)
 
 
+
 2. **Monitoreo y Auditoria**
-  Para las auditorias utilizamos el .
-Mecanismo de Tablog
+3. 
+  Para las auditorias utilizamos el Mecanismo de Tablog.
 Permite mantener un registro, «o log», de operaciones de inserción, borrado y modificación sobre tablas. Los datos relativos a esas operaciones se almacenan en tablas de la base de datos que deben ser creadas por los usuarios exclusivamente para ese fin.
 Así pues, para cada tabla de la base de datos cuyas operaciones se deseen registrar deberá existir otra tabla en la base de datos en la cual se almacenará información sobre dichas operaciones. Nos referiremos a esta segunda tabla como tabla de movimientos.
 tabla de movimientos
