@@ -85,8 +85,9 @@ El formulario de registro de pacientes es utilizado para capturar y almacenar in
 ![Historia Paciente](images/PACIENTES/CDatosPaciente.JPG)
 
 #### **6. Ejemplo de Interfaz de Busqueda**
-	Esta interfaz permite buscar por campo cedula o razon social en lista al paciente o responsable, esto sirve si al cargar una admision o una cuenta ambulatoria no encuentra la cedula o rif, pero el ingreso a la clinica en algun moneto de la historia, 
-	asi que podra buscar los datos como paciente y copiar para registrar su cedula y datos pertinenetes, la misma para su ingresos, solo hacer las modificaciones que necesita sobre la copia, ya que la original no podra modificar cedula.
+	Esta interfaz permite buscar por campo cedula o razon social en lista al paciente o responsable, esto sirve si al cargar una admision o una cuenta ambulatoria y no encuentra la cedula o rif,
+ 	pero el ingreso a la clinica en algun tiempo del sistema, asi que podra buscar los datos como paciente y copiar para registrar su cedula y datos pertinenetes, la misma para su ingresos, 
+  	y solo hacer las modificaciones que necesita sobre la copia, ya que la original no podra modificar la cedula que debio ser de su padre o madre.
 
 ![Historia Paciente](images/PACIENTES/CpacientesFrm.JPG)
 	
