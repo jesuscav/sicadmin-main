@@ -18,7 +18,7 @@ Esta documentación está dirigida a usuarios de sistemas, administradores, pers
    - [Manual del Usuario](sistemas/README.md)
 
 2. **Manuales tecnicos**
-   - [Manuales tecnicos](doc/cosmos/README.md)
+   - [Manuales tecnicos](cosmos/README.md)
 
 3. **Anexos**
    - Glosario de términos
