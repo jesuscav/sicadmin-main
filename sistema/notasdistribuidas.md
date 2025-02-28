@@ -3,6 +3,11 @@
 #### **1. Descripción General**
 El formulario de **Notas de Crédito/Débito Distribuidas** permite crear notas de crédito o débito asociadas a facturas existentes. Estas notas pueden aplicarse de manera distribuida, es decir, seleccionando los ítems específicos de la factura sobre los cuales se desea realizar el ajuste. Además, el formulario permite agregar nuevos ítems a la factura mediante una nota de débito. Este proceso es útil para corregir errores, aplicar descuentos, o realizar ajustes financieros en las facturas de los pacientes.
 
+ **Nota de Crédito**: 
+ 
+ La única forma de anular una factura es mediante la emisión de una nota de crédito. La nota de crédito debe incluir el número de la factura original y los detalles de la anulación.
+ Debe Ingresarse a la impresion el Nro de control a Imprimir.
+
 ---
 
 #### **2. Campos del Formulario**
